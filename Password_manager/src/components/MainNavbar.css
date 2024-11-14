@@ -1,0 +1,56 @@
+.main-navbar {
+  width: 100%;
+  background-color: #3498DB;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.navbar-logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.navbar-links a:hover {
+  background-color: #FF6347;
+  border-radius: 4px;
+}
+
+.profile-icon {
+  width: 32px; /* Adjust the size as per your requirement */
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 15px; /* Space between the sign-out button and the profile icon */
+  transition: background-color 0.3s;
+}
+
+.profile-icon:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Slight hover effect for better interactivity */
+}

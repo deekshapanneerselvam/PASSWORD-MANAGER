@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #3498DB;  /* Soft Blue */
+  color: white;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links li {
+  cursor: pointer;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li:hover {
+  color: #FF6347;  /* Hover effect for better interaction (Tomato color) */
+}

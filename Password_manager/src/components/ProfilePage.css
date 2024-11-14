@@ -1,0 +1,50 @@
+.profile-page {
+    padding: 20px;
+  }
+  
+  .profile-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture-container {
+    margin-right: 20px;
+  }
+  
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .profile-pic-input {
+    margin-top: 10px;
+  }
+  
+  .user-info {
+    font-size: 16px;
+  }
+  
+  .password-change,
+  .account-settings,
+  .activity-log {
+    margin-top: 20px;
+  }
+  
+  .settings-item {
+    margin-bottom: 10px;
+  }
+  
+  .logout-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c0392b;
+  }
+  

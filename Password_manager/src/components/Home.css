@@ -1,0 +1,103 @@
+/* Container Styling */
+.home-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* Hero Section Styling */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #002b5c, #00509e);
+  color: #ffffff;
+  border-radius: 12px;
+}
+
+.hero-image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.hero-text {
+  max-width: 600px;
+  margin-left: 20px;
+}
+
+.cta-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #f9a826;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #db8d00;
+}
+
+/* Feature Section Styling */
+.features-section {
+  margin-top: 40px;
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f4f4f4;
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-image-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.feature-image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.feature-text {
+  flex: 2;
+  padding: 10px 20px;
+}
+
+.feature-text h3 {
+  margin-bottom: 10px;
+  color: #00509e;
+}
+
+.feature-text p {
+  margin: 0;
+  color: #333;
+}
+.key-features-section {
+  padding: 2rem 1rem; /* Light background for the features section */
+}
+
+.key-features-heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  text-align: left; /* Aligns the heading to the left */
+}
